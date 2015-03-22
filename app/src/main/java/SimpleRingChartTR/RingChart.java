@@ -82,9 +82,9 @@ public class RingChart extends View {
         // Calculate(Width,    Height,    Thickness, size);
         init();
 
-        addChartValue("Elma", 50, ChartColors.RED);
-        addChartValue("Şeftali", 150, ChartColors.ORANGE);
-        addChartValue("Armut", 80, ChartColors.GREEN);
+        //addChartValue("Elma", 50, ChartColors.RED);
+        //addChartValue("Şeftali", 150, ChartColors.ORANGE);
+        //addChartValue("Armut", 80, ChartColors.GREEN);
        // addChartValue("Kiraz", 10, ChartColors.GREY);
 
         //Toplam deger.
@@ -224,9 +224,9 @@ public class RingChart extends View {
     }
 
     //id ile Deger Silme - Delete Item by id.
-    public void deleteChartValue( int id){
-        if ((id < listValues.size()) && (id >= 0)){
-            listValues.remove(id);
+    public void deleteChartValue( int index){
+        if ((index < listValues.size()) && (index >= 0)){
+            listValues.remove(index);
             invalidate();
         }
     }
