@@ -78,7 +78,7 @@ mRingChart.deleteAllValue();
   mRingChart.selectValue(2);
 ```
 <br>
-#####Yaziyi Goster / Gizle
+#####Yaziyi Göster / Gizle
 ```java
    mRingChart.setTextShow( true );
 ```
