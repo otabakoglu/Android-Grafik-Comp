@@ -7,10 +7,9 @@ import android.view.View;
 import SimpleRingChartTR.ChartColors;
 import SimpleRingChartTR.RingChart;
 
-
 public class MainActivity extends Activity {
 
-    RingChart mRingChart;
+    private RingChart mRingChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +24,7 @@ public class MainActivity extends Activity {
         mRingChart.addChartValue("Armut", 80, ChartColors.GREEN);
         mRingChart.addChartValue("Kiraz", 10, ChartColors.GREY);
 
+
         //Coklu Deger Ekleme- Add Values
       //  List<RingChartValue> values = new ArrayList<RingChartValue>();
       //  values.add( new RingChartValue("Elma", 50, ChartColors.RED));
@@ -38,9 +38,14 @@ public class MainActivity extends Activity {
         //butun degerleri sil.
       //  mRingChart.deleteAllValue();
 
+
+
+        /**
+         *@params id(int), name(String), value(int), color(int)
+         */
         //id ile deger guncelleme
-      //  mRingChart.updateChartValue( 0,"Elma", 50, ChartColors.RED );
-       // mRingChart.updateChartValue( 0,new RingChartValue("Şeftali", 80, ChartColors.GREEN) );
+       // mRingChart.updateChartValue( 0,"Elma", 50, ChartColors.RED );
+       //mRingChart.updateChartValue( 0,new RingChartValue("Şeftali", 80, ChartColors.INDIGO) );
 
         //Deger Secme
         //mRingChart.selectValue(2);
@@ -52,11 +57,11 @@ public class MainActivity extends Activity {
     }
 
     public void add(View v){
-        mRingChart.addChartValue("Yeşil Elma", 70, ChartColors.GREEN);
+        mRingChart.addChartValue("Yeşil Elma", 70, ChartColors.PURPLE);
     }
 
     public void delete(View v){
-        mRingChart.deleteChartValue( 0 );
+        mRingChart.deleteChartValue(0);
     }
 
 

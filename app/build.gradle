@@ -4,6 +4,8 @@ android {
     compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
+    resourcePrefix "grafik_comp"
+
     defaultConfig {
         applicationId "com.trozant.android_grafik_comp"
         minSdkVersion 10
@@ -22,3 +24,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+
