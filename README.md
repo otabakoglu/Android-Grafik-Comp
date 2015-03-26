@@ -82,3 +82,8 @@ mRingChart.deleteAllValue();
 ```java
    mRingChart.setTextShow( true );
 ```
+
+
+##Güncellemeler
+
+26.03.2015 14:16 - Yeni Rekler Eklendi, Material Design Colors (18).
