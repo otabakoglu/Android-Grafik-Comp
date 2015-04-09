@@ -369,7 +369,7 @@ public class BarChart extends View {
      * Settings Text Size. Default Value 25f
      * @param size  Text Size
      */
-    private void setTextSize(float size){
+    public void setTextSize(float size){
         if(size > 0) {
             textPaint.setTextSize(size);
             invalidate();

@@ -23,6 +23,9 @@ public class BarChartActivity extends Activity {
         barChart.addChartValue("Şeftali", 150, ChartColors.ORANGE);
         barChart.addChartValue("Armut", 80, ChartColors.GREEN);
         barChart.addChartValue("Kiraz", 10, ChartColors.GREY);
+        barChart.setTextSize(30);
+        barChart.setLinesColor(ChartColors.BLUE);
+        barChart.setBackgroundColor(ChartColors.YELLOW);
     }
 
 
