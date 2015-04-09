@@ -112,8 +112,8 @@ public class BarChart extends View {
     @Override
     protected void onDraw(Canvas canvas) {
 
-        addChartValue("E", 200, ChartColors.RED);
-        addChartValue("A", 100, ChartColors.ORANGE     );
+        //addChartValue("E", 200, ChartColors.RED);
+       // addChartValue("A", 100, ChartColors.ORANGE     );
         //addChartValue( "Ş", 300, ChartColors.YELLOW  );
         //addChartValue( "K", 400, ChartColors.BLUE     );
         //addChartValue( "Kiraz", 170, ChartColors.AMBER     );
@@ -123,7 +123,7 @@ public class BarChart extends View {
          */
         init( );
 
-        setTextSize(50f);
+        //setTextSize(50f);
 
         // Alt Bosluk
         float bottomSpace = (space / 3)*2 + getTextHeight();
