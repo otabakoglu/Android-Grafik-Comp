@@ -3,7 +3,7 @@
 Bu Kütüphaneyi bir alışverip listesi programı ya da Hesap takip programı içinde kolaylıkla kullanabilirsiniz. 
 Renk seçenekleri mevcuttur.</p>
 ##Daire Grafik##
-=========
+
 ####Örnek Resimler:
 
 <img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname.png" width="327px" height="338px" />
@@ -85,6 +85,10 @@ mRingChart.deleteAllValue();
 ```
 
 ##Bar Grafik
+####Örnek Resimler:
+
+<img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname3.png" width="300px" height="389px" />
+<img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname4.png" width="300px" height="387px" />
 ####Kullanımı:
 ___________
 ######XML:
@@ -107,8 +111,7 @@ ___________
 ```
 
 <br>
-###### Yeni Değer Ekleme, Deger Silme(index, isim), Bütün Değerleri Silme, Değer Güncelleme(index)
-Özelliklerinin kullanımı Daire Grafik ile Aynıdır.
+###### Yeni Değer Ekleme, Deger Silme(index, isim), Bütün Değerleri Silme, Değer Güncelleme(index) Özelliklerinin kullanımı Daire Grafik ile Aynıdır.
 ###### Yazı Boyutlarını Ayarlama
 ```java
         barChart.setTextSize(30);
