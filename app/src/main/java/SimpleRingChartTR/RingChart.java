@@ -12,6 +12,9 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
+import SimpleRingChartTR.Models.RingChartValue;
+import SimpleRingChartTR.Utils.ChartColors;
+
 /**
  * Created by Cry on 21.03.2015.
  *
@@ -130,7 +133,7 @@ public class RingChart extends View {
 
             // Kenarlik Cizimi için Secilen renklerin Yerine Koyu Renkleri Ayarlaniyor.
             // Dark Color for draw thickness.
-            paint.setColor( ChartColors.getDarkColor( listValues.get(i).getColor() ) );
+            paint.setColor( ChartColors.getDarkColor(listValues.get(i).getColor()) );
 
             //ilk cizim grafik kenarligi icin.
             //first draw for thickness.
@@ -224,7 +227,7 @@ public class RingChart extends View {
     }
 
     //id ile Deger Silme - Delete Item by id.
-    public void deleteChartValue( int index){
+    public void deleteChartValue(int index){
         if ((index < listValues.size()) && (index >= 0)){
             listValues.remove(index);
             invalidate();

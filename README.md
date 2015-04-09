@@ -59,7 +59,7 @@ ___________
  ```java
  mRingChart.deleteChartValue( "Elma" );
  ```
- 
+
  <br>
  
 #####Bütün Değerleri Siler

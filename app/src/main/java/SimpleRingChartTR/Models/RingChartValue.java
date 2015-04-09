@@ -1,4 +1,4 @@
-package SimpleRingChartTR;
+package SimpleRingChartTR.Models;
 
 /**
  * Created by Cry on 21.03.2015.

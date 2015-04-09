@@ -1,4 +1,4 @@
-package SimpleRingChartTR;
+package SimpleRingChartTR.Utils;
 
 import android.graphics.Color;
 
@@ -72,6 +72,7 @@ public class ChartColors {
     private static final int DARK_BROWN   = Color.parseColor("#5d4037");
 
    //GREY
+    public  static final int LIGHT_GREY = Color.parseColor("#F5F5F5");
     public  static final int GREY      = Color.parseColor("#9e9e9e");
     private static final int DARK_GREY = Color.parseColor("#616161");
 
@@ -82,6 +83,9 @@ public class ChartColors {
   //BLACK AND WHITE
     public static final int WHITE = Color.parseColor("#ffffff");
     public static final int BLACK = Color.parseColor("#000000");
+
+  //
+    public static final int CHART_LINE = Color.parseColor("#616161");
 
     public static int getDarkColor(  int color ){
 

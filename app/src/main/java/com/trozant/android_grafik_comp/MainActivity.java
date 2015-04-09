@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-import SimpleRingChartTR.ChartColors;
+import SimpleRingChartTR.Utils.ChartColors;
 import SimpleRingChartTR.RingChart;
 
 public class MainActivity extends Activity {
