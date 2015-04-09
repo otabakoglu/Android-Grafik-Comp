@@ -1,4 +1,4 @@
-##Android Daire Grafik Kütüphanesi##
+##Android Grafik Kütüphanesi##
 <p>Android için Basit Daire Grafik Kütüphanesi.
 Bu Kütüphaneyi bir alışverip listesi programı ya da Hesap takip programı içinde kolaylıkla kullanabilirsiniz. 
 Renk seçenekleri mevcuttur.</p>
