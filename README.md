@@ -2,7 +2,8 @@
 <p>Android için Basit Daire Grafik Kütüphanesi.
 Bu Kütüphaneyi bir alışverip listesi programı ya da Hesap takip programı içinde kolaylıkla kullanabilirsiniz. 
 Renk seçenekleri mevcuttur.</p>
-=========
+##Daire Grafik##
+
 ####Örnek Resimler:
 
 <img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname.png" width="327px" height="338px" />
@@ -49,7 +50,7 @@ ___________
 ```
 <br>
 
-#####Deger Silme - id ile
+#####Deger Silme - index ile
 ```java
   mRingChart.deleteChartValue( 0 );
 ```
@@ -83,7 +84,48 @@ mRingChart.deleteAllValue();
    mRingChart.setTextShow( true );
 ```
 
+##Bar Grafik
+####Örnek Resimler:
+
+<img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname3.png" width="300px" height="389px" />
+<img src="https://raw.githubusercontent.com/otabakoglu/Android-Grafik-Comp/master/Images/noname4.png" width="300px" height="387px" />
+####Kullanımı:
+___________
+######XML:
+```xml
+<view
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        class="SimpleRingChartTR.BarChart"
+        android:id="@+id/bar_char/>
+```
+###### Java
+
+```java
+        barChart = (BarChart) findViewById( R.id.bar_chart );
+        
+        barChart.addChartValue("Elma", 50, ChartColors.RED);
+        barChart.addChartValue("Şeftali", 150, ChartColors.ORANGE);
+        barChart.addChartValue("Armut", 80, ChartColors.GREEN);
+        barChart.addChartValue("Kiraz", 10, ChartColors.GREY);
+```
+
+<br>
+###### Yeni Değer Ekleme, Deger Silme(index, isim), Bütün Değerleri Silme, Değer Güncelleme(index) Özelliklerinin kullanımı Daire Grafik ile Aynıdır.
+###### Yazı Boyutlarını Ayarlama
+```java
+        barChart.setTextSize(30);
+```
+###### Çizgi Renklerini Ayarlama
+```java
+        barChart.setLinesColor(ChartColors.BLUE);
+```
+######Arkaplan Rengini Ayarlama
+```java
+        barChart.setBackgroundColor(ChartColors.YELLOW);
+```
 
 ##Güncellemeler
 
 26.03.2015 14:16 - Yeni Rekler Eklendi, Material Design Colors (18).
+10.04.2015 00:15 - Bar Grafik Eklendi
